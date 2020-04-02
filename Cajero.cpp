@@ -38,7 +38,7 @@ int main(){
            menu();
        }
     }   
-    while (i==0) {
+    while (i<=0) {
      menu();
     }
     
@@ -72,7 +72,7 @@ int menu(){
     case 1:
         cout << "\tSu saldo es: $" << saldo << " USD" << endl << endl;
         break;
-        menu();
+       
     case 2:
         retirom();
         while(retiro > saldo){
@@ -81,7 +81,7 @@ int menu(){
         }
         cout << "\t\t Su nuevo saldo ahora es de: $" << saldo << " USD" << endl << endl << endl << endl;
         break;
-        menu();
+        
 
     case 3:
         cout << "\t Digite la cantidad a depositar por favor" << endl;
@@ -89,7 +89,7 @@ int menu(){
         saldo += deposito;
         cout << "\t\t Su nuevo saldo ahora es de: $" << saldo << " USD" << endl << endl << endl << endl;
         break;
-        menu();
+        
 
     case 4:
         cout << "Gracias por elegirnos como su servicio de Cajero Automatico, hasta pronto." << endl;
@@ -98,7 +98,7 @@ int menu(){
 
     default:
         cout << "Opcion incorrecta" << endl << endl << endl << endl;
-        menu();
+        
     }
     return 0;
  
