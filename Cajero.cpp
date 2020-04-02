@@ -89,7 +89,7 @@ int menu(){
         saldo += deposito;
         cout << "\t\t Su nuevo saldo ahora es de: $" << saldo << " USD" << endl << endl << endl << endl;
         break;
-        
+       
 
     case 4:
         cout << "Gracias por elegirnos como su servicio de Cajero Automatico, hasta pronto." << endl;
@@ -98,7 +98,7 @@ int menu(){
 
     default:
         cout << "Opcion incorrecta" << endl << endl << endl << endl;
-        
+      
     }
     return 0;
  
