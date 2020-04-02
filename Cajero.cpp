@@ -1,7 +1,7 @@
 /* 
 Inicio: 31/03/2020
 
-Este es un software que simula un cajero automatico, sin utilizacion de base de datos, el mismo comienza con un saldo de 1000 USD.
+Este es un software que simula un cajero automatico, sin utilizacion de base de datos, el mismo comienza con un saldo de 10000 USD.
 
 
 */
